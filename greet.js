@@ -11,3 +11,5 @@ function greetFromQuery(req) {
 }
 
 module.exports = { buildGreeting, greetFromQuery };
+
+module.exports.VERSION = "1.0.1";
