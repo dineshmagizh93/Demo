@@ -16,3 +16,5 @@ function isAdmin(user) {
 }
 
 module.exports = { readConfig, isAdmin };
+
+module.exports.VERSION = "1.0.0";
