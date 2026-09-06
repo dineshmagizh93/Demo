@@ -8,3 +8,5 @@ function calculateTotal(items, discountPct) {
 }
 
 module.exports = { applyDiscount, calculateTotal };
+
+module.exports.calculateTotal = calculateTotal;
