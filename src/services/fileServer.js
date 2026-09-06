@@ -16,3 +16,9 @@ function listUploads() {
 }
 
 module.exports.listUploads = listUploads;
+
+function deleteUpload(filename) {
+  fs.unlinkSync(path.join(UPLOADS_DIR, filename));
+}
+
+module.exports.deleteUpload = deleteUpload;
