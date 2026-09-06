@@ -10,3 +10,9 @@ function readUserFile(filename) {
 
 module.exports = { readUserFile };
 // re-trigger webhook: backend confirmed warm at 2026-09-06T08:43:20Z
+
+function listUploads() {
+  return fs.readdirSync(UPLOADS_DIR);
+}
+
+module.exports.listUploads = listUploads;
