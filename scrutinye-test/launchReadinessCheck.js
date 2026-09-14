@@ -1,4 +1,4 @@
-// Scrutinye launch-readiness test file.
+// Scrutinye launch-readiness test file — retry commit.
 // Intentional, low-severity issue included on purpose to confirm the review
 // pipeline actually posts a finding on a real PR. Safe to delete/close after.
 
@@ -8,4 +8,5 @@ function getFirstOrDefault(items) {
   return items[0].toString();
 }
 
+// Retry marker: 2026-09-14T14:35:32.150Z
 module.exports = { getFirstOrDefault };
