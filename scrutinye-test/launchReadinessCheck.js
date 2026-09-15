@@ -20,3 +20,5 @@ module.exports = { getFirstOrDefault };
 // retry watching instance-id + checkpoints together
 
 // retry after Render instance upgrade
+
+// retry with finer-grained assembleContext tracing
