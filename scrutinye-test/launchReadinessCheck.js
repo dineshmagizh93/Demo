@@ -30,3 +30,5 @@ module.exports = { getFirstOrDefault };
 // retry with unconditional getContext return checkpoint
 
 // retry after disabling redundant SDK internal retries
+
+// retry after raising UV_THREADPOOL_SIZE to 16
