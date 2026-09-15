@@ -12,3 +12,5 @@ function getFirstOrDefault(items) {
 module.exports = { getFirstOrDefault };
 
 // retry after LLM call timeout fix (391d25b)
+
+// retry after disabling HTTP keep-alive on LLM clients (ee8b856)
