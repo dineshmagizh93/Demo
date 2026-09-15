@@ -22,3 +22,5 @@ module.exports = { getFirstOrDefault };
 // retry after Render instance upgrade
 
 // retry with finer-grained assembleContext tracing
+
+// retry after fixing the embeddings call timeout
