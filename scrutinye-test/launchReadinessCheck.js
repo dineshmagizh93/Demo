@@ -26,3 +26,5 @@ module.exports = { getFirstOrDefault };
 // retry after fixing the embeddings call timeout
 
 // retry with getContext internal tracing
+
+// retry with unconditional getContext return checkpoint
