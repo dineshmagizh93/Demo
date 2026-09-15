@@ -16,3 +16,5 @@ module.exports = { getFirstOrDefault };
 // retry after disabling HTTP keep-alive on LLM clients (ee8b856)
 
 // retry with checkpoint tracing deployed (a78c858)
+
+// retry watching instance-id + checkpoints together
