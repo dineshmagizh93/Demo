@@ -18,3 +18,5 @@ module.exports = { getFirstOrDefault };
 // retry with checkpoint tracing deployed (a78c858)
 
 // retry watching instance-id + checkpoints together
+
+// retry after Render instance upgrade
