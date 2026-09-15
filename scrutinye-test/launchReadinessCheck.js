@@ -28,3 +28,5 @@ module.exports = { getFirstOrDefault };
 // retry with getContext internal tracing
 
 // retry with unconditional getContext return checkpoint
+
+// retry after disabling redundant SDK internal retries
